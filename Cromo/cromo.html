@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Estilo Imagen</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 35px;
+      background-color: #f0f0f0;
+    }
+
+    .card {
+      width: 400px;
+      height: 650px;
+      border: 6px solid blue;
+      border-radius: 30px;
+      background-color:palevioletred;
+      position: relative;
+      padding: 25px 20px;
+      box-sizing: border-box;
+    }
+
+    .section {
+      margin-bottom: 15px;
+      border-bottom: 3px solid black;
+      padding-bottom: 0px;
+    }
+
+    .section_textos{
+      margin-bottom: 15px;
+      border-bottom: 3px solid black;
+      padding-bottom: 15px;
+    }
+
+    .top-text {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .image-container {
+      border: 3px solid black;
+      overflow: hidden;
+      margin: px ;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .image-container img {
+      width: 900px;
+      background-size: cover;
+    }
+
+    .vertical-text {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-size: 30px;
+      background-color: blue;
+      padding: 10px 5px;
+      margin-left: 5px;
+      border-left: px solid black;
+      border-right: px solid black;
+    }
+
+    .artista {
+      font-size: 17px;
+      margin: 10px 0;
+    }
+
+    .atributo {
+      font-size: 17px;
+      margin: 10px 0;
+    }
+
+    .parrafo {
+      font-size: 16px;
+      padding: 10px 0;
+    }
+
+    .name-real {
+      font-size: 16px;
+      font-weight: bold;
+      border-bottom: 3px solid black;
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+    }
+
+    .toughness {
+      text-align: right;
+      font-size: 22px;
+      font-weight: bold;
+      padding-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="section_textos top-text">Capitán Salami</div>
+
+    <div class="section image-container">
+      <img src="images/amador.jfif" alt="Imagen">
+      <div class="vertical-text">★★★★★★</div>
+      
+    </div>
+
+    <div class="section_textos artista">Amador Rivas</div>
+
+    <div class="section_textos atributo">SUPER_FUERZA</div>
+
+    <div class="section_textos parrafo">
+       El capitan salami va ayudando a la gente con su salami manchego.
+    </div>
+
+    <div class="name-real">Alberto Esteban</div>
+    <div class="toughness">6/18</div>
+
+  </div>
+
+</body>
+</html>
+
+
